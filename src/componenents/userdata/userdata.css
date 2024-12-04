@@ -131,21 +131,33 @@
 }
 
 @media(min-width: 1024px) {
- 
-    .user-info {
-        display: flex;
-        flex: 1;
-        justify-content: space-between;
-        align-self: flex-start;
+    .user-card {
+        padding: 48px;
     }
+
+    .userinfo {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
     .joined {
+        display: flex;
+        width: 200px;
+        position: absolute;
         margin-top: 8px;
+        left:300px
     }
 
     .user-middle {
         width: 480px;
         margin-left: auto;
         margin-top: -60px;
+    }
+
+    .stats {
+        margin-bottom: 37px;
     }
 
     .user-bottom {
